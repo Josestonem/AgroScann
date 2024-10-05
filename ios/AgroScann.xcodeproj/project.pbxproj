@@ -11,7 +11,8 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		69CED22B694A9C84856810AD /* libPods-AgroScann.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8759B72D1EEA606057D087 /* libPods-AgroScann.a */; };
+		534DAFAAD1260D9096FE82D0 /* libPods-AgroScann-AgroScannTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B88EB2EC4A4C4550927F6F /* libPods-AgroScann-AgroScannTests.a */; };
+		5BFB620E86A3E96EC83A6908 /* libPods-AgroScann.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 691B611AA3E4574E62CC497F /* libPods-AgroScann.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		82AB8B3C2CB03FB2004F3F85 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82AB8B3B2CB03FB2004F3F85 /* GoogleService-Info.plist */; };
 		82AB8B3F2CB04001004F3F85 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 82AB8B3E2CB04001004F3F85 /* FirebaseAnalytics */; };
@@ -19,7 +20,6 @@
 		82AB8B432CB04001004F3F85 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 82AB8B422CB04001004F3F85 /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		82AB8B452CB04001004F3F85 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 82AB8B442CB04001004F3F85 /* FirebaseAppCheck */; };
 		82AB8B472CB04001004F3F85 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 82AB8B462CB04001004F3F85 /* FirebaseAppDistribution-Beta */; };
-		CBD407E756C9F09B80C21CE4 /* libPods-AgroScann-AgroScannTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63636DBC3B10C4E217E024B0 /* libPods-AgroScann-AgroScannTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,20 +36,20 @@
 		00E356EE1AD99517003FC87E /* AgroScannTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgroScannTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* AgroScannTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgroScannTests.m; sourceTree = "<group>"; };
-		10C349069AF85E6FDC6B19F8 /* Pods-AgroScann.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgroScann.debug.xcconfig"; path = "Target Support Files/Pods-AgroScann/Pods-AgroScann.debug.xcconfig"; sourceTree = "<group>"; };
+		0E9FB2C3A7871D33BAE4133C /* Pods-AgroScann-AgroScannTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgroScann-AgroScannTests.debug.xcconfig"; path = "Target Support Files/Pods-AgroScann-AgroScannTests/Pods-AgroScann-AgroScannTests.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* AgroScann.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgroScann.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AgroScann/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = AgroScann/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AgroScann/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AgroScann/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AgroScann/main.m; sourceTree = "<group>"; };
-		63636DBC3B10C4E217E024B0 /* libPods-AgroScann-AgroScannTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AgroScann-AgroScannTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		731420A283F998E29F6617A1 /* Pods-AgroScann.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgroScann.release.xcconfig"; path = "Target Support Files/Pods-AgroScann/Pods-AgroScann.release.xcconfig"; sourceTree = "<group>"; };
+		59145F2D1898CB2F573A891B /* Pods-AgroScann.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgroScann.debug.xcconfig"; path = "Target Support Files/Pods-AgroScann/Pods-AgroScann.debug.xcconfig"; sourceTree = "<group>"; };
+		691B611AA3E4574E62CC497F /* libPods-AgroScann.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AgroScann.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AgroScann/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82AB8B3B2CB03FB2004F3F85 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		845CF27139E9A8313F889919 /* Pods-AgroScann-AgroScannTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgroScann-AgroScannTests.release.xcconfig"; path = "Target Support Files/Pods-AgroScann-AgroScannTests/Pods-AgroScann-AgroScannTests.release.xcconfig"; sourceTree = "<group>"; };
-		AF9403EF666AD342EE82E1C1 /* Pods-AgroScann-AgroScannTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgroScann-AgroScannTests.debug.xcconfig"; path = "Target Support Files/Pods-AgroScann-AgroScannTests/Pods-AgroScann-AgroScannTests.debug.xcconfig"; sourceTree = "<group>"; };
-		CA8759B72D1EEA606057D087 /* libPods-AgroScann.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AgroScann.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCA961E03B4DC45058D4DE2 /* Pods-AgroScann.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgroScann.release.xcconfig"; path = "Target Support Files/Pods-AgroScann/Pods-AgroScann.release.xcconfig"; sourceTree = "<group>"; };
+		D20B0F8083659BEF04DD85B7 /* Pods-AgroScann-AgroScannTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgroScann-AgroScannTests.release.xcconfig"; path = "Target Support Files/Pods-AgroScann-AgroScannTests/Pods-AgroScann-AgroScannTests.release.xcconfig"; sourceTree = "<group>"; };
+		E7B88EB2EC4A4C4550927F6F /* libPods-AgroScann-AgroScannTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AgroScann-AgroScannTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -58,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBD407E756C9F09B80C21CE4 /* libPods-AgroScann-AgroScannTests.a in Frameworks */,
+				534DAFAAD1260D9096FE82D0 /* libPods-AgroScann-AgroScannTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,10 +68,10 @@
 			files = (
 				82AB8B3F2CB04001004F3F85 /* FirebaseAnalytics in Frameworks */,
 				82AB8B412CB04001004F3F85 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
-				69CED22B694A9C84856810AD /* libPods-AgroScann.a in Frameworks */,
 				82AB8B452CB04001004F3F85 /* FirebaseAppCheck in Frameworks */,
 				82AB8B432CB04001004F3F85 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 				82AB8B472CB04001004F3F85 /* FirebaseAppDistribution-Beta in Frameworks */,
+				5BFB620E86A3E96EC83A6908 /* libPods-AgroScann.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,8 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				CA8759B72D1EEA606057D087 /* libPods-AgroScann.a */,
-				63636DBC3B10C4E217E024B0 /* libPods-AgroScann-AgroScannTests.a */,
+				691B611AA3E4574E62CC497F /* libPods-AgroScann.a */,
+				E7B88EB2EC4A4C4550927F6F /* libPods-AgroScann-AgroScannTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -153,10 +153,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				10C349069AF85E6FDC6B19F8 /* Pods-AgroScann.debug.xcconfig */,
-				731420A283F998E29F6617A1 /* Pods-AgroScann.release.xcconfig */,
-				AF9403EF666AD342EE82E1C1 /* Pods-AgroScann-AgroScannTests.debug.xcconfig */,
-				845CF27139E9A8313F889919 /* Pods-AgroScann-AgroScannTests.release.xcconfig */,
+				59145F2D1898CB2F573A891B /* Pods-AgroScann.debug.xcconfig */,
+				ABCA961E03B4DC45058D4DE2 /* Pods-AgroScann.release.xcconfig */,
+				0E9FB2C3A7871D33BAE4133C /* Pods-AgroScann-AgroScannTests.debug.xcconfig */,
+				D20B0F8083659BEF04DD85B7 /* Pods-AgroScann-AgroScannTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -168,12 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AgroScannTests" */;
 			buildPhases = (
-				C66349BF1FE215509D36EACC /* [CP] Check Pods Manifest.lock */,
+				08FA40AA30B8B2D148ABF069 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				549D287695F8F6A9D7D08A52 /* [CP] Embed Pods Frameworks */,
-				10F6B9BAF9FAE308FA10CF6C /* [CP] Copy Pods Resources */,
+				9C1C72B1352C99321E832AF9 /* [CP] Embed Pods Frameworks */,
+				A5E6F6C3CD79454390D62B23 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,14 +189,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AgroScann" */;
 			buildPhases = (
-				F39569DE014A809BB2CD6792 /* [CP] Check Pods Manifest.lock */,
+				1BD5EEEA5E567C3DF4E46D31 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				28ADAB461C59A65921673DE7 /* [CP] Embed Pods Frameworks */,
-				2ACCDD417E980DC640A242B9 /* [CP] Copy Pods Resources */,
+				B1B2BE69537767D18B093F78 /* [CP] Embed Pods Frameworks */,
+				78CFA46B1BAE327D52007633 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -283,75 +283,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		10F6B9BAF9FAE308FA10CF6C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AgroScann-AgroScannTests/Pods-AgroScann-AgroScannTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AgroScann-AgroScannTests/Pods-AgroScann-AgroScannTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AgroScann-AgroScannTests/Pods-AgroScann-AgroScannTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		28ADAB461C59A65921673DE7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AgroScann/Pods-AgroScann-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AgroScann/Pods-AgroScann-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AgroScann/Pods-AgroScann-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2ACCDD417E980DC640A242B9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AgroScann/Pods-AgroScann-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AgroScann/Pods-AgroScann-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AgroScann/Pods-AgroScann-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		549D287695F8F6A9D7D08A52 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AgroScann-AgroScannTests/Pods-AgroScann-AgroScannTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AgroScann-AgroScannTests/Pods-AgroScann-AgroScannTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AgroScann-AgroScannTests/Pods-AgroScann-AgroScannTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C66349BF1FE215509D36EACC /* [CP] Check Pods Manifest.lock */ = {
+		08FA40AA30B8B2D148ABF069 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -373,7 +305,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F39569DE014A809BB2CD6792 /* [CP] Check Pods Manifest.lock */ = {
+		1BD5EEEA5E567C3DF4E46D31 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -393,6 +325,74 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78CFA46B1BAE327D52007633 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgroScann/Pods-AgroScann-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgroScann/Pods-AgroScann-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AgroScann/Pods-AgroScann-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C1C72B1352C99321E832AF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgroScann-AgroScannTests/Pods-AgroScann-AgroScannTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgroScann-AgroScannTests/Pods-AgroScann-AgroScannTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AgroScann-AgroScannTests/Pods-AgroScann-AgroScannTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5E6F6C3CD79454390D62B23 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgroScann-AgroScannTests/Pods-AgroScann-AgroScannTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgroScann-AgroScannTests/Pods-AgroScann-AgroScannTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AgroScann-AgroScannTests/Pods-AgroScann-AgroScannTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1B2BE69537767D18B093F78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgroScann/Pods-AgroScann-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgroScann/Pods-AgroScann-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AgroScann/Pods-AgroScann-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -447,7 +447,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF9403EF666AD342EE82E1C1 /* Pods-AgroScann-AgroScannTests.debug.xcconfig */;
+			baseConfigurationReference = 0E9FB2C3A7871D33BAE4133C /* Pods-AgroScann-AgroScannTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -474,7 +474,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 845CF27139E9A8313F889919 /* Pods-AgroScann-AgroScannTests.release.xcconfig */;
+			baseConfigurationReference = D20B0F8083659BEF04DD85B7 /* Pods-AgroScann-AgroScannTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -498,7 +498,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10C349069AF85E6FDC6B19F8 /* Pods-AgroScann.debug.xcconfig */;
+			baseConfigurationReference = 59145F2D1898CB2F573A891B /* Pods-AgroScann.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -527,7 +527,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 731420A283F998E29F6617A1 /* Pods-AgroScann.release.xcconfig */;
+			baseConfigurationReference = ABCA961E03B4DC45058D4DE2 /* Pods-AgroScann.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
