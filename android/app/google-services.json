@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "41255614574",
+    "project_id": "agroscann-ab5ad",
+    "storage_bucket": "agroscann-ab5ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41255614574:android:23431832c8c4fa76308e7f",
+        "android_client_info": {
+          "package_name": "com.agroscann"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8WZm_LREGE2KI_gPCinr5PAKrOwCF0f4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
